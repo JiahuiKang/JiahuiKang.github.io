@@ -7,7 +7,7 @@ a,img{cursor:url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/
 video{width:100%}
 .card-info-avatar:hover{background:url(https://ae01.alicdn.com/kf/H3342af90d24b4d62b9bbfec9688ccc25M.gif)}
 audio{outline:0}
-/*
+
 #recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>
 #post,.read-mode .layout_post>
 #post{background:var(--light_bg_color)}[data-theme=dark] #nav,[data-theme=dark]
@@ -33,7 +33,7 @@ p.top{border-top-width:5px;border-top-color:var(--Color)}
 ::-webkit-scrollbar-thumb{background-color:#49b1f5;background-image:-webkit-linear-gradient(45deg,rgba(255,255,255,.4) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.4) 50%,rgba(255,255,255,.4) 75%,transparent 75%,transparent);border-radius:2em}
 ::-webkit-scrollbar-corner{background-color:transparent}
 ::-moz-selection{color:#fff;background-color:#49b1f5}
-*/
+
 
 
 
