@@ -29,7 +29,7 @@ p.top{border-top-width:5px;border-top-color:var(--Color)}
 .open{display:inline-block}
 .layout_post img{display:inline-block}
 .layout_post>#post {
-    background: rgba(255, 255, 255, .9);
+    background: rgba(255, 255, 255, .46);
 }
 
 /* 页脚footer */
