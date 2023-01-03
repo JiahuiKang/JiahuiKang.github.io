@@ -78,6 +78,7 @@ p.top{border-top-width:5px;border-top-color:var(--Color)}
 #footer {
     background: linear-gradient(-45deg, #ee7752, #ce3e75, #23a6d5, #23d5ab);
     background-size: 400% 400%;
+    background-color: rgba(0, 0, 0, 0);
     -webkit-animation: Gradient 10s ease infinite;
     -moz-animation: Gradient 10s ease infinite;
     animation: Gradient 10s ease infinite;
