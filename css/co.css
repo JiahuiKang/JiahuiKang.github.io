@@ -1,0 +1,115 @@
+
+#aside-content .card-widget,
+#recent-posts>.recent-post-item,
+.layout_page>div:first-child:not(.recent-posts),
+.layout_post>#page,
+.layout_post>#post,
+.read-mode .layout_post>#post {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+/* #aside-content .card-widget{
+    opacity: 0.8;
+} */
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* 头像 */
+/* .avatar-img img {
+    -webkit-transition: none;
+    transition: none;
+} */
+
+/* 副标题 */
+#subtitle {
+    letter-spacing: 3px;
+    font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}
+
+
+/* 文章封面标题 */
+.article-title {
+    transition: 0.4s;
+}
+
+.recent-post-item:hover .article-title {
+    transform: translateX(8px);
+}
+
+/* 个人信息卡片 */
+#aside-content .card-info {
+    height: 378px;
+    transition: 0.5s;
+    /* opacity: 0.8; */
+}
+
+#aside-content .card-info:hover {
+    opacity: 1;
+    background: rgba(255, 255, 255, 1);
+}
+
+/* 图标 */
+
+.social-icon:nth-child(1) {
+    --i: 1;
+}
+
+.social-icon:nth-child(2) {
+    --i: 2;
+}
+
+.social-icon:nth-child(3) {
+    --i: 3;
+}
+
+.social-icon {
+    display: inline-block;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateY(25px);
+    transition-delay: calc(0.1s * var(--i))
+}
+
+#aside-content .card-info:hover .social-icon {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.social-icon .fab:hover {
+    transform: none;
+}
+
+#aside-content .card-info .is-center .avatar-img {
+    transition: 0.5s;
+    transform: translateY(5px);
+}
+
+#aside-content .card-info:hover .is-center .avatar-img {
+    transform: translateY(-5px);
+}
+
+#aside-content .card-info .author-info__description {
+    line-height: 15px;
+    font-size: 12px;
+    letter-spacing: 1px;
+
+}
+
+#aside-content .card-info #card-info-btn {
+    margin-top: 0;
+}
+
+/* .layout {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: none;
+    display: flex;
+    justify-content: center;
+} */
+
+#body-wrap{
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
